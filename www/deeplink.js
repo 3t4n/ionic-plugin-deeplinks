@@ -68,6 +68,7 @@ var IonicDeeplink = {
             $route: pathData,
             $args: finalArgs,
             $link: data,
+            $path: realPath,
           });
         }
 
